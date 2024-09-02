@@ -1,11 +1,11 @@
 #Rock Paper Scissor Lizard Spock game 
 import random
-print("Rock Paper Scissor Game")
+print("Rock Paper Scissor Lizard Spock Game")
 your_choice= input("Enter your choice:")
 choices=["Rock", "Paper", "Scissor"]
 choices.append("Lizard")
 choices.append("Spock")
-computer = random.choice(choices)
+computer = random.choice(choices) 
 print(f"You choose {your_choice} and Computer choose {computer}")
 
 if your_choice==computer:
@@ -49,3 +49,4 @@ else:
         print("Spock smashes Scissor! You Win")
     else:
         print("Invalid input")
+print(choices)
